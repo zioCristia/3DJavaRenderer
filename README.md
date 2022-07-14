@@ -7,6 +7,8 @@ The view initialization is made from the ```init()``` method in the class render
 Implemented rendering for: cube, rectangular cuboid as basic entities, and package disposition for the complex one. 
 This last one consist of a List of rectangular cuboids arranged in space following the coordinates taken as input.
 
+Here above you can see some views examples of a cube and a truck with some packages (as rectangular cuboid).
+
 ## Cube
 ![alt text](/images/cube.png)
 
