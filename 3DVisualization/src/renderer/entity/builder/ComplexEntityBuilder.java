@@ -36,8 +36,7 @@ public class ComplexEntityBuilder {
 			if(packagesCordinates.get(i).isFragile())
 				tetras.add(addRectangularCuboid(Color.YELLOW, initialXRelative, initialYRelative, initialZRelative, finalXRelative, finalYRelative, finalZRelative));
 			else {
-				tetras.add(addRectangularCuboid(colors.get(colorIndex), initialXRelative, initialYRelative, initialZRelative, finalXRelative, finalYRelative, finalZRelative));
-				colorIndex++;
+				tetras.add(addRectangularCuboid(colors.get(colorIndex++), initialXRelative, initialYRelative, initialZRelative, finalXRelative, finalYRelative, finalZRelative));
 				if(colorIndex == colors.size()) 
 					colorIndex = 0;
 			}
